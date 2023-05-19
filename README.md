@@ -15,7 +15,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v2 
       - name: Expose version name
-        uses: michpohl/android-expose-version-name-action@v1.0.0
+        uses: gagandeep3458/android-expose-version-name-action@v1.0.0
         with:
           expose-version-name: 'true'
           expose-version-code: 'false'
