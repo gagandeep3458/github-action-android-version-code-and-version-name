@@ -1,6 +1,6 @@
-name: Expose Android version code and name
+name: Get Android Version Name and Version Code 
 description: Finds the version code and version name in your build.gradle file and publishes it as env vars.
-author: Michael Pohl
+author: gagandeep3458
 inputs:
   path:
     required: false
@@ -13,5 +13,5 @@ inputs:
     required: true
     description: Expose version name
 runs:
-  using: node12
+  using: node16
   main: dist/index.js
